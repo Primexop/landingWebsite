@@ -48,6 +48,8 @@ import 'glightbox/dist/css/glightbox.min.css'
 (function() {
   "use strict";
 
+  console.log('Welcome to Primexop.com');
+
   /**
    * Easy selector helper function
    */

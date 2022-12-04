@@ -1,0 +1,10 @@
+{
+  "compress": {
+    "drop_console": true
+  },
+  "format": {
+    "comments": true,
+    "ecma":2015
+  }
+ 
+}
