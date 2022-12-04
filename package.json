@@ -1,0 +1,37 @@
+{
+  "name": "primexoplandingwebsite",
+  "version": "1.0.0",
+  "description": "",
+  "source": [
+    "src/index.html"
+   
+    
+  ],
+  "scripts": {
+    "start": "parcel ",
+    "clean": "node clean.js",
+    "dev": "node clean.js && parcel watch --public-url ./",
+    "build": "parcel build --public-url ./"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.5",
+  
+    "parcel": "latest",
+    "parcel-reporter-static-files-copy": "^1.4.0",
+    "posthtml-doctype": "^1.1.1",
+    "posthtml-include": "^1.7.4",
+    "process": "^0.11.10"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "staticFiles": {
+    "staticPath": "src/assets",
+    "staticOutPath": "assets"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Primexop/website/issues"
+  },
+  "homepage": "https://github.com/Primexop/website#readme"
+}
