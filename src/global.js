@@ -1,9 +1,50 @@
-/**
-* Template Name: FlexStart - v1.11.1
-* Template URL: https://bootstrapmade.com/flexstart-bootstrap-startup-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+// fonts import 
+import "@fontsource/open-sans"
+import "@fontsource/open-sans/300.css"
+import "@fontsource/open-sans/300-italic.css"
+import "@fontsource/open-sans/400-italic.css"
+import "@fontsource/open-sans/600.css"
+import "@fontsource/open-sans/600-italic.css"
+import "@fontsource/open-sans/700.css"
+import "@fontsource/open-sans/700-italic.css"
+import "@fontsource/nunito"
+import "@fontsource/nunito/300.css"
+import "@fontsource/nunito/300-italic.css"
+import "@fontsource/nunito/400-italic.css"
+import "@fontsource/nunito/600.css"
+import "@fontsource/nunito/600-italic.css"
+import "@fontsource/nunito/700.css"
+import "@fontsource/nunito/700-italic.css"
+import "@fontsource/poppins"
+import "@fontsource/poppins/300.css"
+import "@fontsource/poppins/300-italic.css"
+import "@fontsource/poppins/400-italic.css"
+import "@fontsource/poppins/500.css"
+import "@fontsource/poppins/500-italic.css"
+import "@fontsource/poppins/600.css"
+import "@fontsource/poppins/600-italic.css" 
+import "@fontsource/poppins/700.css"
+import "@fontsource/poppins/700-italic.css"
+// global css 
+import './global.css'
+ //bootstrap 5.2.2
+ import * as bootstrap from 'bootstrap'
+ import 'bootstrap/dist/css/bootstrap.min.css'
+ import 'bootstrap-icons/font/bootstrap-icons.css'
+ import 'remixicon/fonts/remixicon.css'
+
+ // modules import 
+import Isotope from 'isotope-layout'
+import AOS from 'aos'; 
+import 'aos/dist/aos.css'
+import PureCounter from "@srexi/purecounterjs";
+import GLightbox from 'glightbox';
+import 'glightbox/dist/css/glightbox.min.css'
+
+  import Swiper from 'swiper';
+
+  import 'swiper/swiper.min.css';
+ 
 (function() {
   "use strict";
 
